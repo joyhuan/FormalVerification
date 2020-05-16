@@ -86,9 +86,7 @@ Lemma sorted_helper : forall h t,
 
 Tbh I thought about this problems more than three hours. I was at a few points very close to finish
 the proof but still fail at a margin. But I can tell you every second of the stuggle and the toil is 
-totally worth it. Subconscious started to merge. It becomes clearer and clearer to detect plausible
-assumptions I am making which really is false. I become more alert and agile at detecting and coining
-counterexamples. And I logic chain became concrete maps in my mind instead of messyt knots.
+totally worth it. I became more aware of subconscious, became more alert at detecting false plausible assumptions, and became more adept at coining counterexamples. Logic unknots from chaos and started to form clear concrete maps in my mind.
 
 Though many people took this class because they are passionate and ambitious to use computer to 
 do proofs both in math theories and the correctness of their program (the latter case is actually
@@ -96,6 +94,5 @@ much harder than most people imagine), I took this class because I wanted to imp
 I cannot say I am good at logic after taking the class, I am definitely way better. 
 
 I still haven't figured out a way to explain Formal Verification to people so that it gets the 
-respect and it deserves, but I will continue work on it. Hope I can make you appreciate its power as
-much as I do. 
+respect that it deserves, but I will continue working on it. Hope I can make you appreciate its power as much as I do. 
 
