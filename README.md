@@ -20,11 +20,10 @@ Theorem evenb_double_conv : forall n,
   exists k, n = if evenb n then double k
                 else S (double k).
 ```
-In the first sight, it sounds like an elementary school math problem. However, it is really not so, 
-the proof reintroduces how numbers, operations, logic are defined. We take even/odd for granted and 
-the +/-/*// comuputing are so straightforward that we already formed a mental shortcut. This is fine 
+In the first sight, it sounds like an elementary school math problem. However, it is really not so. 
+The proof reintroduces how numbers, operations, and logic are defined. We take even/odd for granted and +,-,*,/ are so straightforward that we have already formed a mental shortcut. This is fine 
 for tasks as easy as number operations. But when the difficulty level increases, it will become much
-less intuitive for you. In fact, believe it or not, the difficulty level doesn't even need to be tuned
+less intuitive. In fact, believe it or not, the difficulty level doesn't even need to be tuned
 much that you will feel so lost. To help you get a better sense, this is the only problem that I 
 skipped in the final exam. 
 ```
@@ -44,7 +43,7 @@ Theorem linsearch_correct : correct_search linsearch.
 Basically we are trying to prove that linear search is a valid sorting algorithm. Now, does that 
 sound easy task for you? It might naturally follows that we at least need to first define linsearch 
 and correct_search. And then we will piece the two definitions to form a proof. Just give you a 
-flavor I attached the needed definitions and lemmas before we get to the proof. 
+flavor I attached the needed definitions and lemmas before we get to the proof. You will need to design more by yourself to get the proof done. 
 
 ```
 (** We repeat the definition of [sorted] from _Software Foundations_:
@@ -84,8 +83,8 @@ Lemma sorted_helper : forall h t,
     sorted (h :: t) -> sorted t.
 ```
 
-Tbh I thought about this problems more than three hours. I was at a few points very close to finish
-the proof but still fail at a margin. But I can tell you every second of the stuggle and the toil is 
+Tbh I worked over this problems for more than three hours. At a few points I was very close to finish
+the proof but still fail at the margin. But I can tell you every second of the stuggle and the toil is 
 totally worth it. I became more aware of subconscious, became more alert at detecting false plausible assumptions, and became more adept at coining counterexamples. Logic unknots from chaos and started to form clear concrete maps in my mind.
 
 Though many people took this class because they are passionate and ambitious to use computer to 
@@ -95,4 +94,3 @@ I cannot say I am good at logic after taking the class, I am definitely way bett
 
 I still haven't figured out a way to explain Formal Verification to people so that it gets the 
 respect that it deserves, but I will continue working on it. Hope I can make you appreciate its power as much as I do. 
-
